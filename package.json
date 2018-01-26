@@ -1,0 +1,22 @@
+{
+  "name": "aspar",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom-22/aspar.git"
+  },
+  "keywords": [
+    "aspar"
+  ],
+  "author": "Atom Ulikhanyan <atomulikhanyan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atom-22/aspar/issues"
+  },
+  "homepage": "https://github.com/atom-22/aspar#readme"
+}
