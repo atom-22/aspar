@@ -1,6 +1,6 @@
 var util = require('util');
 
-global.infoMax = function(arr){
+exports.infoMax = function(arr){
     var max = arr[0];
     for(var i = 1; i<=arr.length; i++){
         if(arr[i]>max){
@@ -10,7 +10,7 @@ global.infoMax = function(arr){
     console.info(max);
 }
 
-global.infoMin = function(arr){
+exports.infoMin = function(arr){
     var min =  arr[0];
     for (var i = 1; i < arr.length; i++) {
         if(arr[i] < min){
@@ -20,7 +20,7 @@ global.infoMin = function(arr){
     console.info(min);
 }
 
-global.logEvenNumSquare = function(n){
+exports.logEvenNumSquare = function(n){
     if(n%2==0 && n!==0){
         let x=n*n;
         console.log(x);
