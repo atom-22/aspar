@@ -1,6 +1,6 @@
-# aspar 0.0.1
+# aspar v0.0.1
 
-##Installation
+## Installation
 
 Using npm:
 ```shell
