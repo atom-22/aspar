@@ -1,4 +1,4 @@
-# aspar v0.0.1
+# aspar v0.0.1 a small library
 
 ## Installation
 
