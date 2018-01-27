@@ -1,6 +1,6 @@
 var util = require('util');
 
-exports.infoMax = function(arr){
+var infoMax = function(arr){
     var max = arr[0];
     for(var i = 1; i<=arr.length; i++){
         if(arr[i]>max){
@@ -10,7 +10,7 @@ exports.infoMax = function(arr){
     console.info(max);
 }
 
-exports.infoMin = function(arr){
+var infoMin = function(arr){
     var min =  arr[0];
     for (var i = 1; i < arr.length; i++) {
         if(arr[i] < min){
@@ -20,7 +20,7 @@ exports.infoMin = function(arr){
     console.info(min);
 }
 
-exports.logEvenNumSquare = function(n){
+ var logEvenNumSquare = function(n){
     if(n%2==0 && n!==0){
         let x=n*n;
         console.log(x);
@@ -29,17 +29,17 @@ exports.logEvenNumSquare = function(n){
     }
 }
 
-var SomePerson = function(name,username,age){
+var somePerson = function(name,username,age){
     this.name = name;
     this.username = username;
     this.age = age;
 }
 
-SomePerson.prototype.sayPersonalInfo = function(){
+somePerson.prototype.sayPersonalInfo = function(){
     console.log(util.format("User name is %s %s he/she is %d years old.",this.name,this.username,this.age)); 
 }
 
-exports.SomePerson = SomePerson;
-
-
-
+exports.somePerson = somePerson;
+exports.infoMax = infoMax;
+exports.infoMin = infoMin;
+exports.logEvenNumSquare = logEvenNumSquare;
