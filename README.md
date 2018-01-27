@@ -1,6 +1,7 @@
-# aspar v0.0.1 a small library
+# aspar v0.0.1 
+### a small js library
 
-## Installation
+### Installation
 
 Using npm:
 ```shell
